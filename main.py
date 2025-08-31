@@ -74,7 +74,7 @@ class CollatzVisualizer:
         sim_frame.grid_columnconfigure(0, weight=1)
         sim_frame.grid_columnconfigure(1, weight=1)
 
-        ttk.Label(sim_frame, text="STARTING NUMBER:").grid(row=0, column=0, padx=5, pady=5, sticky='ew')
+        ttk.Label(sim_frame, text="NUMBER:").grid(row=0, column=0, padx=5, pady=5, sticky='ew')
         self.number_var = tk.StringVar(value="1")
         self.number_entry = ttk.Entry(sim_frame, textvariable=self.number_var, width=50, justify='center')
         self.number_entry.grid(row=0, column=1, padx=5, pady=5, sticky='ew')
@@ -435,3 +435,4 @@ if __name__ == "__main__":
     app = CollatzVisualizer(root)
     root.after(100, app.generate_sequence)
     root.mainloop()
+
