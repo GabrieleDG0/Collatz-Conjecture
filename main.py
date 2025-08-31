@@ -93,7 +93,7 @@ class CollatzVisualizer:
         self.play_btn.grid(row=0, column=0, padx=5, pady=(5, 2), sticky='ew')
         reset_btn = ttk.Button(anim_frame, text="🔄 RESET", command=self.reset_animation)
         reset_btn.grid(row=1, column=0, padx=5, pady=2, sticky='ew')
-        self.scale_btn = ttk.Button(anim_frame, text="-> SCALE: LINEAR", command=self.toggle_scale)
+        self.scale_btn = ttk.Button(anim_frame, text="-> LINEAR SCALE", command=self.toggle_scale)
         self.scale_btn.grid(row=2, column=0, padx=5, pady=(2,5), sticky='ew')
 
         # 3. Navigation section
@@ -435,5 +435,6 @@ if __name__ == "__main__":
     app = CollatzVisualizer(root)
     root.after(100, app.generate_sequence)
     root.mainloop()
+
 
 
