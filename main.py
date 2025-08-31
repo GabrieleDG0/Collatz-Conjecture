@@ -1,5 +1,5 @@
 # ----------------------------- #
-# COLLATZ CONJECTURE VISUALIZER #
+# COLLATZ CONJECTURE VISUALISER #
 # ----------------------------- #
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
@@ -435,4 +435,5 @@ if __name__ == "__main__":
     app = CollatzVisualizer(root)
     root.after(100, app.generate_sequence)
     root.mainloop()
+
 
