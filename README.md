@@ -2,8 +2,10 @@
 This project implements a Collatz visualiser in Python that compute the Collatz sequence for any given integer, create an interactive step-by-step animation, including some statistics 
 and show the results on a linear/log scale. Finally allows you to export the final result in png or csv.
 <br>
+
 **Note: you can find an .exe file on the Release section if ou want to try the project!**
 
+<br>
 <img width="1360" height="723" alt="image" src="https://github.com/user-attachments/assets/60ad4e61-2c37-4167-80f5-96b0457cdcae" />
 
 ## Introduction
