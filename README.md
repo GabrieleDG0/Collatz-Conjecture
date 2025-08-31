@@ -10,7 +10,7 @@ and show the results on a linear/log scale. Finally allows you to export the fin
 
 ## Introduction
 The Collatz conjecture, also known as the **3n+1 problem**, is a simple but unsolved problem in mathematics. 
-It was first proposed by **Lothar Collatz** in 1937 and later studied independently by mathematicians such as Stanislaw Ulam, who gave it names such as the “Ulam conjecture” or the “Hailstone problem” 
+It was first proposed by **Lothar Collatz** in 1937 and later studied independently by mathematicians such as Stanislaw Ulam, who gave it names such as the “Ulam conjecture” or the “Hailstone problem”. 
 Despite its apparent simplicity, the conjecture has resisted a formal proof for over eighty years, making it a fascinating topic for both amateur and professional mathematicians.
 
 ## Historical context
@@ -29,7 +29,7 @@ Despite numerous computational verifications (checking numbers up to
 
 Historically, the problem attracted the attention of **Stanislaw Ulam** in the 1960s, who proposed a probabilistic perspective and treated the sequences as a stochastic process. 
 Although this approach did not provide a solution, it opened the way to studying the statistical behaviour of Collatz sequences. 
-Later, in 2010, **Jeffrey Lagarias** highlighted the extreme difficulty of the problem by formalising it in the framework of generalised 3x+1 functions 
+Later, in 2010, **Jeffrey Lagarias** highlighted the extreme difficulty of the problem by formalising it in the framework of generalised 3x+1 functions (the 5x+1, linear maps mod n, quasi-polynomial functions, etc)
 and emphasising its deep connections to number theory and combinatorial analysis.
 
 A significant recent advance comes from **Terence Tao** in 2019, who used analytic and probabilistic methods to prove that “almost all” Collatz sequences 
