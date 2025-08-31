@@ -3,10 +3,10 @@ This project implements a Collatz visualiser in Python that compute the Collatz 
 and show the results on a linear/log scale. Finally allows you to export the final result in png or csv.
 <br>
 
-**Note: you can find an .exe file on the Release section if ou want to try the project!**
+**Note: you can find an .exe file on the Release section if you want to try the project!**
 
 <br>
-<img width="1360" height="723" alt="image" src="https://github.com/user-attachments/assets/60ad4e61-2c37-4167-80f5-96b0457cdcae" />
+<img width="1360" height="725" alt="image" src="https://github.com/user-attachments/assets/12533baf-4e8a-42c1-b90a-806b895ac51c" />
 
 ## Introduction
 The Collatz conjecture, also known as the **3n+1 problem**, is a simple but unsolved problem in mathematics. 
